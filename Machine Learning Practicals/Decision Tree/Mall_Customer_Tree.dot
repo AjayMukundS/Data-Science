@@ -1,0 +1,8 @@
+digraph Tree {
+size = "4,4";
+
+"Age < 20.5" -> class_0 [label = "T"];
+class_0 [shape = box, color = gray, style = filled, label = "Male"];
+"Age < 20.5" -> class_1 [label = "F"];
+class_1 [shape = box, color = gray, style = filled, label = "Female"];
+}
